@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda parte Form</title>
+</head>
+<body>
+    <h1>Segunda Parte Form</h1>
+
+    <form action=""method="get" >
+        <fieldset>
+            <section>
+                <label for="photo">Foto:</label>
+            <input type="file" accept="image/*" id="photo">
+            </section>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Filme favorito</legend>
+            <section>
+                <input type="checkbox" >
+                <label for="">Velozes e furiosos</label>
+            </section>
+            <section>
+                <input type="checkbox">
+                <label for="">O assassino</label>
+            </section>
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend>Aceita os termos de uso?</legend>
+            <section>
+                <input type="radio" id="yes" name="term" checked>
+                <label for="yes">sim</label>
+            </section>
+
+            <section>
+                <input type="radio" id="no" name="term" checked>
+                <label for="no">No</label>
+            </section>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Observações</legend>
+            <textarea name="" id="" cols="45" rows="10" maxlength="450"></textarea>
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Salvar</button>
+    </form>
+    
+</body>
+</html>

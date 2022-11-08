@@ -1,0 +1,60 @@
+/* reset com seletor universal*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 18px;
+}
+main{
+
+    border: solid 5px black;
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+}
+    
+
+    div{
+        height: 180px;
+        
+        width: 180px;
+        
+        border: solid 1px black;
+        
+        color: white;
+        
+        font-size: 64px;
+        
+        padding: 10px;
+        
+    /* margin: 1px; */
+    
+    /* display: inline-block; */
+}
+
+.square1{
+    background: black;
+    position: absolute;
+    left: 35px;
+    top: 35px;
+    z-index: 3;
+}
+.square2{
+    background: rgb(255, 115, 0);
+    position: absolute;
+    left: 68px;
+    top: 68px;
+    z-index: 2;
+}
+.square3{
+    background: grey;
+    position: absolute;
+    left: 108px;
+    top: 108px;
+    z-index: 1;
+
+}

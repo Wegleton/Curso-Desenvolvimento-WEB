@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "A A" 
+    "B C"
+    ". C"
+    ". C" 
+    "D D";
+    grid-template-columns: 120px 120px;
+    grid-template-rows: 15% 20% 20% 20% 10%;
+    gap: 8PX;
+    padding: 3px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+h1{
+    font-size: 48px;
+}
+header{
+    background: black;
+    color: white;
+    grid-area: A;
+}
+main{
+    background: rgb(255, 128, 0);
+    grid-area: B;
+}
+aside{
+    background: gray;
+    grid-area: C;
+}
+footer{
+    background: white;
+    grid-area: D;
+}

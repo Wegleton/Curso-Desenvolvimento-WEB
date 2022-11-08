@@ -1,0 +1,14 @@
+div{
+    height: 180px;
+    width: 1515px;
+    border: solid 1px black;
+    color: white;
+    font-size: 64px;
+    /* box-sizing: border-box; */
+    display: flex;
+    
+}
+.square1{
+    background: black;
+
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class-01 Especificidade</title>
+
+    <style>
+        
+        /*HTML: tag > atributos > valor*/
+
+        /*CSS: seletor > propriedade > valor*/
+        /* 
+        Especificidade: 
+        0 = * seletor universal
+        1 = elementos (tags)h1, p, img...
+        10 = Class Ex:(.class)
+        100 = ID Ex: (#id)
+        1000 = Inline
+         */
+
+        h1{
+            font-size: 32px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="color:white">Estudo do CSS</h1>
+    <p style="color:rgb(255, 140, 0)">CSS-Cascading Style Sheeets</p>
+    <p style="color: red;">Teste</p>
+    
+</body>
+</html>
